@@ -1,0 +1,35 @@
+{
+	"info": {
+		"_postman_id": "8cfbad1a-6796-4476-a5a0-f617ef833776",
+		"name": "web-scraping",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "index",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"url\": \"https://www.ebay.com/itm/312958226645\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/web-scraping",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"web-scraping"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
